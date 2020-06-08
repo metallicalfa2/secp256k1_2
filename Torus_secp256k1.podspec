@@ -8,7 +8,6 @@ Pod::Spec.new do |spec|
     spec.homepage     = 'https://github.com/rathishubham7/secp256k1_2.git'
     spec.author       = { "Shubham Rathi" => "rathishubham017@gmail.com" }
     spec.source       = { :git => 'https://github.com/rathishubham7/secp256k1_2.git', :tag => spec.version.to_s }
-    spec.source_files = "Source/secp256k1/**/*.{h,c}", "Source/secp256k1/*.{h,c}"
-    spec.swift_version = '5.0'
+    spec.source_files = "Sources/secp256k1/**/*.{h,c}", "Sources/secp256k1/*.{h,c}"
     spec.module_name = 'secp256k1'
 end

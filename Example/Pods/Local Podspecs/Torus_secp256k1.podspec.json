@@ -18,10 +18,8 @@
     "tag": "0.0.1"
   },
   "source_files": [
-    "Source/secp256k1/**/*.{h,c}",
-    "Source/secp256k1/*.{h,c}"
+    "Sources/secp256k1/**/*.{h,c}",
+    "Sources/secp256k1/*.{h,c}"
   ],
-  "swift_versions": "5.0",
-  "module_name": "secp256k1",
-  "swift_version": "5.0"
+  "module_name": "secp256k1"
 }

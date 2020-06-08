@@ -197,10 +197,10 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/secp256k1/secp256k1.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Torus_secp256k1/secp256k1.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/secp256k1/secp256k1.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Torus_secp256k1/secp256k1.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
