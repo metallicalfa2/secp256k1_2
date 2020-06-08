@@ -1,0 +1,27 @@
+{
+  "name": "Torus_secp256k1",
+  "version": "0.0.1",
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.11"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "summary": "SecpLib",
+  "homepage": "https://github.com/rathishubham7/secp256k1_2.git",
+  "authors": {
+    "Shubham Rathi": "rathishubham017@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rathishubham7/secp256k1_2.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Source/secp256k1/**/*.{h,c}",
+    "Source/secp256k1/*.{h,c}"
+  ],
+  "swift_versions": "5.0",
+  "module_name": "secp256k1",
+  "swift_version": "5.0"
+}

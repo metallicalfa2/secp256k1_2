@@ -1,0 +1,16 @@
+PODS:
+  - Torus_secp256k1 (0.0.1)
+
+DEPENDENCIES:
+  - Torus_secp256k1 (from `../`)
+
+EXTERNAL SOURCES:
+  Torus_secp256k1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Torus_secp256k1: efd1273da3f12710fabcddebcf9d27ddc9dec041
+
+PODFILE CHECKSUM: c33ebea0098ec919c77943c94325524eed4027cd
+
+COCOAPODS: 1.9.3

@@ -1,1 +1,3 @@
-# secp256k1_2
+# secp256k1
+
+A description of this package.
